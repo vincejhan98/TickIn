@@ -1,4 +1,4 @@
-# TickIn
+# Tick_In
 
 Vince Han (UC Berkeley 2021), 
 Avanthika Ramesh (UC Berkeley 2021), 
