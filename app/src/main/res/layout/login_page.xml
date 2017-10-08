@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#FFFFFF"
+    android:layout_margin="10dp">
+
+    <pl.droidsonroids.gif.GifTextView
+        android:paddingTop="15dp"
+        android:layout_margin="15dp"
+        android:id="@+id/tickintext"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/tickintext" />
+
+    <EditText
+        android:id="@+id/id"
+        android:hint="SID (1 / 2 / 3)"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:hint="Password (temp 1234)"
+        android:layout_margin="15dp"
+        android:id="@+id/pw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:onClick="login"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFCA38"
+        android:text="Login"/>
+
+    <TextView
+        android:id="@+id/classNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"
+        android:text=""/>
+
+</LinearLayout>

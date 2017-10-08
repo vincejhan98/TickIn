@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFCA38">
+
+    <pl.droidsonroids.gif.GifTextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gifmaker"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:id="@+id/PeripheralTextView"
+        android:scrollbars="vertical"
+        android:maxLines="30" />
+    <Button
+        android:text="start"
+        android:id="@+id/StartScanButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+    <Button
+        android:id="@+id/StopScanButton"
+        android:text="stop"
+        android:layout_width="0dp"
+        android:layout_height="0dp"/>
+
+
+</LinearLayout>

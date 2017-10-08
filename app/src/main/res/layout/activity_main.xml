@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#FFFFFF"
+    tools:context="com.example.android.calhacks.MainActivity">
+
+    <TextView
+        android:id="@+id/studentno"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Attend the following class/event?"
+        android:padding="10dp"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/course"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/attBt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sendCode"
+        android:text="Submit Attendance" />
+
+    <TextView
+        android:padding="15dp"
+        android:id="@+id/stuff"
+        android:text=""
+        android:textSize="25dp"
+        android:textStyle="italic|bold"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <pl.droidsonroids.gif.GifTextView
+        android:layout_margin="15dp"
+        android:id="@+id/checkgif"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        />
+
+
+</LinearLayout>
